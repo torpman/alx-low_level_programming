@@ -13,7 +13,7 @@ int main(void)
 {
 	int al;
 
-	for (al = 'A'; al <= 'Z'; al++)
+	for (al = 'A'; al <= 'z'; al++)
 	{
 		al = tolower(al);
 		putchar(al);
