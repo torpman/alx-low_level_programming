@@ -11,14 +11,21 @@
 
 int main(void)
 {
-	int al;
 
-	for (al = 'A'; al <= 'z'; al++)
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		al = tolower(al);
-		putchar(al);
+		putchar(c);
+		c++
 	}
-	putchar("\n");
+	c = 'A';
+	while (c <= 'Z')
+	{
+		putchar(c)
+		c++;
+	}
+	putchar('\n');
 	return (0);
 
 }
