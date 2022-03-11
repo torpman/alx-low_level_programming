@@ -13,12 +13,18 @@
 int main(void)
 {
 
-	int al;
+	char al = 'a';
 
-	for (al = 'A'; al <= 'z'; al++)
+	while(al <= 'z')
 	{
-		putchar(tolower(al));
 		putchar(al);
+		al++;
+	}
+	al = 'A'
+	while (al <= 'Z')
+	{
+		putchar(al);
+		al++;
 	}
 	putchar("\n");
 	return (0);
