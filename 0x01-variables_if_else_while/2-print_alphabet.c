@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+  * main - the code entry point
+  *
+  * Description: the code snippet print alphabets in lower case
+  *
+  * Return: return 0 (Success)
+  */
+
+int main(void)
+{
+	int al;
+
+	for (al = 'A'; al <= 'Z'; al++)
+	{
+		al = tolower(al);
+		putchar(al);
+	}
+	return (0);
+
+}
