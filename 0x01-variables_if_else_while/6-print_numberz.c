@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
 
 /**
   * main - erntry point
@@ -15,7 +15,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-		putchar(tostring(i));
+		putchar(itoa(i));
 		i++;
 	putchar('\n');
 	return (0);
