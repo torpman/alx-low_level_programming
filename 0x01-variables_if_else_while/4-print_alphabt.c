@@ -18,7 +18,7 @@ int main(void)
 		if (al == 'e' || al == 'q')
 			continue;
 		putchar(al);
-		al++
+		al++;
 	}
 	putchar('\n');
 	return (0);
