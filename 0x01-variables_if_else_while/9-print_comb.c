@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * mian - entry point
+ * main - entry point
  * Description: Print all possible combination for a siongle digit numbers
- * return: 0
+ * Return: 0 after successful execution
  */
 
 int main(void)
