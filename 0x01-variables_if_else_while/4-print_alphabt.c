@@ -13,18 +13,16 @@ int main(void)
 
 	char al = 'a';
 
-	while (al < 'z')
+	while (al <= 'z')
 	{
 		if (al == 'e' || al == 'q')
-		{	
+		{
 			continue;
 		}
-		else	
-		{	
-			putchar(al);
-		}	
+		putchar(al);
 		al++;
 	}
 	putchar('\n');
 	return (0);
+
 }
