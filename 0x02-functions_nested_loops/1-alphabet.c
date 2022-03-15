@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * Descritption: function print alphabet a-z
+ * print_alphabet: function print alphabet a-z
  * Return: return 0 on succes
  */
 
@@ -13,6 +13,7 @@ void print_alphabet(void)
 	while (i <= 'z')
 	{
 		_putchar(i);
+		a++;
 	}
 	_putchar('\n');
 }
