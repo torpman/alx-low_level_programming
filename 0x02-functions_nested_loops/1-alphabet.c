@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * print_alphabet: function print alphabet a-z
+ * print_alphabet - function print alphabet a-z
  * Return: return 0 on succes
  */
 
