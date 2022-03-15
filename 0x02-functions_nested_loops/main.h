@@ -4,8 +4,6 @@
 
 	int _putchar(char * i)
 	{
-		putchar(i);
+		putchar(* i);
 		return (0);
 	}
-
-	return 0;
