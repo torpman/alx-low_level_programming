@@ -1,14 +1,11 @@
 #include <stdio.h>
 
-int main(void)
-{
-	char _putchar(char);
+	int _putchar(char *);
 
-	char _putchar(char i)
+	int _putchar(char * i)
 	{
 		putchar(i);
+		return (0);
 	}
-	
-	return 0;
 
-}
+	return 0;
