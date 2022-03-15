@@ -2,8 +2,7 @@
 
 /**
  * main - entry point
- * print_alphabet - function print alphabet a-z
- * Return: return 0 on succes
+ * print_alphabet - print alphabet a-z in lower case
  */
 
 void print_alphabet(void)

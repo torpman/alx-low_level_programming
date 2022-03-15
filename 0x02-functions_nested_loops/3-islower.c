@@ -8,11 +8,11 @@
 
 int _islower(int c)
 {
-	if (islower(c))
+	if (c >= 'a')
 	{
 		return (1);
 	}
-	else
+	else if (c <= 'Z')
 	{
 		return (0);
 	}
