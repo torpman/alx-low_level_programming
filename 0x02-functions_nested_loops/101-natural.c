@@ -25,6 +25,6 @@ int main(void)
 		}
 	}
 	s = s3 + s5;
-	printf("%lu\n", sum);
+	printf("%lu\n", s);
 	return (0);
 }
