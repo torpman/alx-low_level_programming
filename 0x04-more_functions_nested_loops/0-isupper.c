@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper: detect maybe an alphabet inputted is in
+ * _isupper - detect maybe an alphabet inputted is in
  *  upper case or otherwise
  *
  * @c: the alphaet inputed
