@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isupper: detect maybe an alpohabet inputted
- * is in upper case or otherwise
+ * _isupper - detect maybe an alphabet inputted is in
+ *  upper case or otherwise
  *
  * @c: the alphaet inputed
  *
- * return: return 1 if it is uppercase
+ * Return: return 1 if it is uppercase
  * 0 if otherwise
  */
 

@@ -1,2 +1,2 @@
-int _putchar(char i);
-int _isupper(int c);
+int _putchar(int i);
+int _isdigit(int c);
