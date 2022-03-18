@@ -1,1 +1,1 @@
-This repository is for tasks on alx low level programming
+this repo is for low level programming
