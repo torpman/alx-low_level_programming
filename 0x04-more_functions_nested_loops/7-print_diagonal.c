@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * print_diagonal - print / in diagonal form
  * @n: the number of time it will be printed
  */
