@@ -1,4 +1,4 @@
-#inlclude "main.h"
+#include "main.h"
 /**
  * print_square - this function prints # in square form
  * base on the size inputted
@@ -16,6 +16,6 @@ void print_square(int size)
 		{
 			_putchar('#');
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
