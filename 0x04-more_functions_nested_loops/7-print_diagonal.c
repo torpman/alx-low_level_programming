@@ -4,10 +4,22 @@
  * @n: the number of time it will be printed
  */
 
-void print_diagonal(int n)
+oid print_diagonal(int n)
 {
-	while (n > 0)
+	int i, j;
+
+	if (n <= 0)
 	{
+		_putchar('\n');
+		return;
+	}
+	for (i = 0; i < n; i++)
+	{
+		j = i;
+		while (j--)
+		{
+			_putchar(' ');
+		}
 		_putchar('\\');
 		_putchar('\n');
 	}
