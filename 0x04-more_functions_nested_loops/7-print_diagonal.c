@@ -4,7 +4,7 @@
  * @n: the number of time it will be printed
  */
 
-oid print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
