@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - the entry point
@@ -29,6 +28,6 @@ int main(void)
 			printf("%d ", num);
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }
