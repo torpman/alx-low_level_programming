@@ -24,7 +24,10 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		printf("%d ", num);
+		else
+		{
+			printf("%d ", num);
+		}
 	}
 	_putchar('\n');
 	return (0);
