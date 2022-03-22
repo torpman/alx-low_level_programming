@@ -1,4 +1,4 @@
-#include "main.h"
+#include <string.h>
 /**
 * rev_string - this function reverse strings
 *
@@ -7,25 +7,19 @@
 
 void rev_string(char *s)
 {
-	int i = 0;
-	int j = 0;
-	int cnt = 0;
-	int s_ln;
+	int i, j;
 	char temp;
 
+	i = 0;
 	while (s[i] != '\0')
 	{
-		cnt++;
 		i++;
 	}
-
-	s_ln = cnt - 1;
-
-	for (j = 0; j <= s_ln / 2; j++)
+	i--;
+	for (j = 0; j <= i / 2; j++)
 	{
 		temp = s[j];
-		s[j] = s[s_ln - j];
+		s[j] = s[i - j];
 		s[i - j] = temp;
 	}
-
 }
