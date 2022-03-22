@@ -21,11 +21,9 @@ void rev_string(char *s)
 
 	s_ln = cnt - 1;
 
-	for (j = 0; j <= cnt; j++)
+	for (j = s_ln; j >= 0; j--)
 	{
-		tmp = s[j];
-		s[j] = s[s_ln];
-		s[s_ln--] = tmp;
+		s = s[j];
 	}
 
 }
