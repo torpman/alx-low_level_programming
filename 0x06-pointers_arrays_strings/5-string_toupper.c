@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * *string_toupper - this function convert lowercase letters in a string
@@ -9,14 +10,13 @@
 
 char *string_toupper(char *str)
 {
-	int i;
+	int i, c;
 
-
+	c = 'A' - 'a';
 	for (i = 0; str[i] != '\n'; i++)
 	{
-		if (str[i] >= 97 && str[i] <= 122)
-			str[i] -= 32;
-
+		if (str[i] >= 'a' && str[i] <= 'z')
+			str[i] += c;
 	}
 	return (str);
 }
