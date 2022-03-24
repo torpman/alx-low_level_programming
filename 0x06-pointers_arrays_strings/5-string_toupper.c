@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
 * *string_toupper - this function convert lowercase letters in a string
