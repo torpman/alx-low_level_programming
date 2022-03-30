@@ -1,1 +1,1 @@
-this repo is for low level programming
+This repo contains everything about alx SE low lvel programming using C language
