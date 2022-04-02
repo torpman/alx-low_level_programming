@@ -1,25 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main - program to multiply numbers pased from the command line
-* @argc: the argument count
-* @argv: the string of argument
-* Return: return the result on success and 1 om erro
-*/
-
+ * main - multiplies two numbers.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
+ */
 int main(int argc, char *argv[])
 {
-	int i;
-	int mul = 1;
-
 	if (argc != 3)
 	{
 		printf("Error\n");
+		return (1);
 	}
-	else
-		for (i = 1; i <= argc; i++)
-		{
-			mul *= atoi(argv[i]);
-		}
-	return (mul);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	return (0);
 }
