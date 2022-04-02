@@ -19,3 +19,4 @@ strstr: this script search for the first occurence of a substring *needle from *
 abs: The script prints the absolute value of a number
 strcpy: this function copy string including the termianting value
 _putchar: The script write charater to stdout
+create_static_lib.sh: static files created from .c files in the same directory
