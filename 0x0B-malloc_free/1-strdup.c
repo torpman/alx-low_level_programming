@@ -3,7 +3,7 @@
 #include "holberton.h"
 
 /**
-* strdup - This function duplicate a string
+* *_strdup - This function duplicate a string
 *
 * @str: The string to copy
 * Return: the function returns a pointer to the duplicate string on succes
