@@ -1,12 +1,12 @@
-#include "3-op_functions.c"
-#include <stddef.h>
-/**
-* get_op_func - This function get the correct operator
-* @s: The operator passed as argument to the program
-*
-* Return: Return the integer version of the operator passed
-*/
+#include "3-calc.h"
 
+/**
+ * get_op_func - selects the correct function to perform
+ * the operation asked by the user.
+ * @s: char operator.
+ *
+ * Return: pointer to the function that corresponds to the operator.
+ */
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
