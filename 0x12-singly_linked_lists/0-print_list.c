@@ -4,6 +4,7 @@
 * print_list - This function prints the element of a linked list
 *
 * @h: the head of the list
+* Return: return the lenght of the list
 */
 
 size_t print_list(const list_t *h)
@@ -14,7 +15,7 @@ size_t print_list(const list_t *h)
 	while (h != NULL)
 	{
 		if (h->str == NULL)
-			printf("[0] (nill)");
+			printf("[%d] %s", 0, "(nil)");
 	
 		printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
