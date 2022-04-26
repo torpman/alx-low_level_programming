@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* free_list - This function free list
+* free_listint - This function frees list
 *
 * @head: the list to be freed
 */
