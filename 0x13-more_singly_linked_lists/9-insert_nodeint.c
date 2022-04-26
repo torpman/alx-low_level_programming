@@ -4,7 +4,7 @@
 * insert_nodeint_at_index - This function inserts new node
 * at a given postition
 *
-* @uhead: The list to insert new node into
+* @head: The list to insert new node into
 * @idx: The index of the list where the node should be added
 * @n: The data of of the node that will be added
 *
