@@ -4,7 +4,7 @@
 * insert_nodeint_at_index - This function inserts new node
 * at a given postition
 *
-* @head: The list to insert new node into
+* @uhead: The list to insert new node into
 * @idx: The index of the list where the node should be added
 * @n: The data of of the node that will be added
 *
@@ -36,7 +36,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (idx == 0)
 	{
 		new_node->next = *head;
-		head = new_node;
+		*head = new_node;
 	}
 	else
 	{
@@ -44,6 +44,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		curr_node->next = new_node;
 	}
 
-	return (curr_node);
+	return (new_node);
 
 }
