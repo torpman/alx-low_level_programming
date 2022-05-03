@@ -32,7 +32,7 @@ int create_file(const char *filename, char *text_content)
 	if (nwr == -1)
 		return (-1);
 
-	close(nwr);
+	close(fd);
 
 	return (1);
 }
